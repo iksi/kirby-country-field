@@ -4,7 +4,7 @@ class CountryField extends SelectField {
 
     public function options() {
 
-        $json = url('assets/data/country.json');
+        $json = url('assets/data/countries.json');
 
         $options = json_decode($json, TRUE);
 
