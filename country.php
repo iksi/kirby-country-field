@@ -6,7 +6,7 @@ class CountryField extends SelectField {
 
         $json = url('assets/data/countries.json');
 
-        $options = json_decode($json, TRUE);
+        $options = json_decode($json, true);
 
         natcasesort($options);
 
