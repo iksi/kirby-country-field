@@ -8,4 +8,4 @@ Place the `country` folder in `/site/fields`.
 
 ### Todo
 
-I’ll probabaly convert this into a field with a `datalist` as soon as [Safari for Mac and iOS have support](http://caniuse.com/#search=datalist) for it.
+I’ll probabaly convert this into a field with a `datalist` as soon as [Safari has support](http://caniuse.com/#search=datalist) for it.
