@@ -1,3 +1,11 @@
-# Custom country field for Kirby
+# Kirby custom country field
 
-Custom country form field for Kirby’s panel. Uses an external json file so it can be easily used on Kirby’s frontend as well.
+Custom country form field for kirby. [Countries used](https://www.iso.org/obp/ui/#search) (select ‘Country codes’).
+
+## Installation
+
+Place the `country` folder in `/site/fields`.
+
+### Todo
+
+I’ll probabaly convert this into a field with a `datalist` as soon as [Safari for Mac and iOS have support](http://caniuse.com/#search=datalist) for it.
