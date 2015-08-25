@@ -256,10 +256,8 @@ class CountryField extends SelectField {
     );
 
     public function options() {
-        // Use the country name both as key and value
-        return array_combine(
-            array_values($this->countries),
-            array_values($this->countries)
-        );
+        $values = array_values($this->countries);
+        // Use country name as key and value
+        return array_combine($values, $values);
     }
 }
