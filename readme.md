@@ -1,11 +1,26 @@
 # Kirby custom country field
 
-Custom country form field for kirby. [Countries used](https://www.iso.org/obp/ui/#search) (select ‘Country codes’).
+Custom country select field for kirby. [Countries used](https://www.iso.org/obp/ui/#search) (select ‘Country codes’).
 
 ## Installation
 
-Place the `country` folder in `/site/fields`.
+`git submodule add https://github.com/iksi/KirbyCountryField.git site/fields/country`  
+Or place a `country` folder in `/site/fields` with the repository’s contents.
 
-### Todo
+## Usage
 
-I’ll probabaly convert this into a field with a `datalist` as soon as [Safari has support](http://caniuse.com/#search=datalist) for it.
+You can define the country field in your blueprint as follows:
+
+```YAML
+country:
+  label: Country
+  type: country
+  format: code
+  default: Belgium
+```
+
+As format you can either use code or name which determins whether the country’s iso code or name is being used as a the value that will be stored.
+
+### Future
+
+Converting this into a field with a `datalist` as soon as [Safari supports](http://caniuse.com/#search=datalist) them.
