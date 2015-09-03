@@ -19,7 +19,7 @@ country:
   default: Belgium
 ```
 
-As format you can either use code or name which determins whether the country’s iso `code` or `name` is being used as a the value that will be stored.
+As format you can either use `code` or `name` which determins whether the country’s iso code or name is being used as a the value that will be stored.
 
 ### Future
 
