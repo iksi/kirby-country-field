@@ -9,7 +9,6 @@ class CountryField extends SelectField {
         $this->options = array();
         $this->icon    = 'chevron-down';
 
-        // Countries
         if (is_readable(__DIR__ . DS . 'countries.php')) {
             $this->options = include(__DIR__ . DS . 'countries.php');
         }
@@ -17,8 +16,6 @@ class CountryField extends SelectField {
 
     public function options() {
         $labels = array_values($this->options);
-
-        // Country codes or names
         $values = ($this->format === 'code') ? array_keys($this->options) : $labels;
 
         return array_combine($values, $labels);
