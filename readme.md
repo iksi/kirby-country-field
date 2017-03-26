@@ -4,7 +4,7 @@ Custom country select field for kirby. [Countries used](https://www.iso.org/obp/
 
 ## Installation
 
-`git submodule add https://github.com/iksi/KirbyCountryField.git site/fields/country`  
+`git submodule add https://github.com/iksi/kirby-country-field.git site/fields/country`  
 Or place a `country` folder in `/site/fields` with the repository’s contents.
 
 ## Usage
